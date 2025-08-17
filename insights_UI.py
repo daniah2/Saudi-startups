@@ -1586,6 +1586,7 @@ with tab6:
     </style>
 """, unsafe_allow_html=True)
 
+
     
     user_input = st.text_input("Ask me about a company or a funding stage:", key="chat_input")
     
