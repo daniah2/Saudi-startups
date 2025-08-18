@@ -456,7 +456,7 @@ purple_color_schemes = {
 }
 
 # Main dashboard
-tab1, tab2, tab3, tab4, tab5 , tab6 = st.tabs(["Overview", "Detailed Analysis", "Key Insights", "Map", "Data Table" , "Chat with Marqab"])
+tab1, tab2, tab3, tab4, tab5 , tab6 , tab7 = st.tabs(["Overview", "Detailed Analysis", "Key Insights", "Map", "Data Table" , "Chat with Marqab", "Team Members"])
 
 with tab1:
     col1, col2 = st.columns([2.5, 1.5])
@@ -1594,6 +1594,54 @@ with tab6:
         response = respond(user_input)
         st.markdown(f"**Marqab:** {response}")
 
+
+#-------------------------
+with tab7:
+    st.markdown('<p class="section-header">Team Members</p>', unsafe_allow_html=True)
+    
+    with st.container():
+        col1, col2, col3 = st.columns(3)
+
+        # نفس ستايل الصناديق
+        member_box_style = """
+        border:1px solid #D4BEE4; 
+        border-radius:12px; 
+        padding:20px; 
+        margin:10px 0; 
+        background:#F9F5FF;
+        height:180px; 
+        display:flex; 
+        flex-direction:column; 
+        justify-content:center;
+        text-align:center;
+        """
+
+        # العضوة 1
+        with col1:
+            st.markdown(f"""
+            <div style="{member_box_style}">
+              <h4 style="margin:0 0 8px 0; color:#674188">Luluh Alyahya</h4>
+              <p style="margin:0">Data scientist</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        # العضوة 2
+        with col2:
+            st.markdown(f"""
+            <div style="{member_box_style}">
+              <h4 style="margin:0 0 8px 0; color:#674188">Farah Alhanaya</h4>
+              <p style="margin:0">Data scientist</p>
+            </div>
+            """, unsafe_allow_html=True)
+
+        # العضوة 3
+        with col3:
+            st.markdown(f"""
+            <div style="{member_box_style}">
+              <h4 style="margin:0 0 8px 0; color:#674188">Daniah Almosa </h4>
+              <p style="margin:0">AI developer and Data scientist </p>
+            </div>
+            """, unsafe_allow_html=True)
 
 # -------------------
 # Summary metrics
