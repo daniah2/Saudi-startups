@@ -54,7 +54,7 @@ st.markdown("""
         text-align: center;
         padding: 2rem;
         background: linear-gradient(135deg, #674188 0%, #9B7EBD 100%);
-        color: white !important;
+        color: white ;
         font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 2rem;
@@ -94,30 +94,30 @@ st.markdown("""
     }
     
     .metric-title {
-        color: #674188 !important;
-        font-size: 1.1rem !important;
-        font-weight: 600 !important;
-        margin: 0 !important;
+        color: #674188 ;
+        font-size: 1.1rem ;
+        font-weight: 600 ;
+        margin: 0 ;
     }
     
     .metric-value {
-        color: #2D1B39 !important;
-        font-size: 2.5rem !important;
-        font-weight: 700 !important;
-        margin: 0.5rem 0 0 0 !important;
+        color: #2D1B39 ;
+        font-size: 2.5rem ;
+        font-weight: 700 ;
+        margin: 0.5rem 0 0 0 ;
     }
     
     .metric-subtitle {
-        color: #9B7EBD !important;
-        font-size: 1.2rem !important;
-        font-weight: 600 !important;
-        margin: 0.5rem 0 !important;
+        color: #9B7EBD ;
+        font-size: 1.2rem ;
+        font-weight: 600 ;
+        margin: 0.5rem 0 ;
     }
     
     .metric-description {
-        color: #6B4B73 !important;
-        font-size: 1rem !important;
-        margin: 0 !important;
+        color: #6B4B73 ;
+        font-size: 1rem ;
+        margin: 0 ;
     }
     
     /* Insight boxes with purple theme */
@@ -138,16 +138,16 @@ st.markdown("""
     }
     
     .insight-title {
-        color: #674188 !important;
-        font-size: 1.3rem !important;
-        font-weight: 700 !important;
-        margin-bottom: 1rem !important;
+        color: #674188 ;
+        font-size: 1.3rem ;
+        font-weight: 700 ;
+        margin-bottom: 1rem ;
     }
     
     .insight-content {
-        color: #4A2C58 !important;
-        line-height: 1.6 !important;
-        font-size: 1rem !important;
+        color: #4A2C58 ;
+        line-height: 1.6 ;
+        font-size: 1rem ;
     }
     .st-cz {
         background-color: white;
@@ -203,7 +203,7 @@ st.markdown("""
      
     .st-emotion-cache-efbu8t {
         font-size: 2.25rem;
-        color: #674188 !important;
+        color: #674188 ;
         padding-bottom: 0.25rem;
     }
 
@@ -222,107 +222,107 @@ st.markdown("""
         background-color: transparent;
         border-radius: 12px;
         padding: 0 24px;
-        color: #674188 !important;
-        font-weight: 600 !important;
-        border: none !important;
+        color: #674188 ;
+        font-weight: 600 ;
+        border: none ;
     }
     
     .stTabs [aria-selected="true"] {
-        background: linear-gradient(135deg, #9B7EBD 0%, #674188 100%) !important;
-        color: white !important;
+        background: linear-gradient(135deg, #9B7EBD 0%, #674188 100%) ;
+        color: white ;
         box-shadow: 0 4px 15px rgba(103, 65, 136, 0.3);
     }
     
     /* Sidebar styling with purple theme */
     .css-1d391kg, .stSidebar > div {
-        background: linear-gradient(180deg, #F3E8FF 0%, #E6CCE6 100%) !important;
+        background: linear-gradient(180deg, #F3E8FF 0%, #E6CCE6 100%) ;
         border-right: 3px solid #C8ACD6;
     }
     
     .sidebar-title {
-        color: #674188 !important;
-        font-weight: 700 !important;
-        font-size: 1.3rem !important;
-        margin-bottom: 1rem !important;
+        color: #674188 ;
+        font-weight: 700 ;
+        font-size: 1.3rem ;
+        margin-bottom: 1rem ;
     }
     
     /* Form elements with purple styling */
     .stSelectbox label, .stMultiSelect label {
-        color: #674188 !important;
-        font-weight: 600 !important;
+        color: #674188 ;
+        font-weight: 600 ;
     }
     
     .stSelectbox > div > div, .stMultiSelect > div > div {
-        background-color: white !important;
-        border: 2px solid #D4BEE4 !important;
-        border-radius: 12px !important;
-        color: #2D1B39 !important;
+        background-color: white ;
+        border: 2px solid #D4BEE4 ;
+        border-radius: 12px ;
+        color: #2D1B39 ;
     }
     
     .stSelectbox > div > div:focus-within, .stMultiSelect > div > div:focus-within {
-        border-color: #9B7EBD !important;
-        box-shadow: 0 0 0 3px rgba(155, 126, 189, 0.1) !important;
+        border-color: #9B7EBD ;
+        box-shadow: 0 0 0 3px rgba(155, 126, 189, 0.1) ;
     }
     
     /* Section headers with purple accent */
     .section-header {
-        color: #674188 !important;
-        font-size: 1.5rem !important;
-        font-weight: 700 !important;
-        margin-bottom: 1rem !important;
-        padding-bottom: 0.5rem !important;
-        border-bottom: 3px solid #9B7EBD !important;
+        color: #674188 ;
+        font-size: 1.5rem ;
+        font-weight: 700 ;
+        margin-bottom: 1rem ;
+        padding-bottom: 0.5rem ;
+        border-bottom: 3px solid #9B7EBD ;
     }
     
     /* Data table with purple borders */
     .stDataFrame {
-        border: 2px solid #D4BEE4 !important;
-        border-radius: 12px !important;
-        overflow: hidden !important;
-        background: white !important;
+        border: 2px solid #D4BEE4 ;
+        border-radius: 12px ;
+        overflow: hidden ;
+        background: white ;
     }
     
     /* Metrics with purple theme */
     .stMetric {
-        background: white !important;
-        padding: 1rem !important;
-        border-radius: 12px !important;
-        border: 1px solid #D4BEE4 !important;
-        box-shadow: 0 4px 15px rgba(103, 65, 136, 0.1) !important;
+        background: white ;
+        padding: 1rem ;
+        border-radius: 12px ;
+        border: 1px solid #D4BEE4 ;
+        box-shadow: 0 4px 15px rgba(103, 65, 136, 0.1) ;
     }
     
     .stMetric label {
-        color: #674188 !important;
-        font-weight: 600 !important;
+        color: #674188 ;
+        font-weight: 600 ;
     }
     
     .stMetric [data-testid="metric-value"] {
-        color: #2D1B39 !important;
-        font-weight: 700 !important;
+        color: #2D1B39 ;
+        font-weight: 700 ;
     }
     
     /* Download button with purple gradient */
     .stDownloadButton > button {
-        background: linear-gradient(135deg, #9B7EBD 0%, #674188 100%) !important;
-        color: white !important;
-        border: none !important;
-        border-radius: 12px !important;
-        padding: 0.75rem 2rem !important;
-        font-weight: 600 !important;
-        transition: all 0.3s ease !important;
+        background: linear-gradient(135deg, #9B7EBD 0%, #674188 100%) ;
+        color: white ;
+        border: none ;
+        border-radius: 12px ;
+        padding: 0.75rem 2rem ;
+        font-weight: 600 ;
+        transition: all 0.3s ease ;
     }
     
     .stDownloadButton > button:hover {
-        transform: translateY(-2px) !important;
-        box-shadow: 0 8px 20px rgba(103, 65, 136, 0.3) !important;
+        transform: translateY(-2px) ;
+        box-shadow: 0 8px 20px rgba(103, 65, 136, 0.3) ;
     }
     
     /* Chart containers with purple borders */
     .js-plotly-plot {
-        background-color: white !important;
-        border-radius: 12px !important;
-        box-shadow: 0 4px 15px rgba(103, 65, 136, 0.15) !important;
-        border: 2px solid #D4BEE4 !important;
+        background-color: white ;
+        border-radius: 12px ;
+        box-shadow: 0 4px 15px rgba(103, 65, 136, 0.15) ;
+        border: 2px solid #D4BEE4 ;
     }
     
     /* Footer with purple theme */
@@ -337,35 +337,35 @@ st.markdown("""
     }
     
     .footer-title {
-        color: #674188 !important;
-        font-size: 1.3rem !important;
-        font-weight: 700 !important;
-        margin-bottom: 1rem !important;
+        color: #674188 ;
+        font-size: 1.3rem ;
+        font-weight: 700 ;
+        margin-bottom: 1rem ;
     }
     
     .footer-text {
-        color: #6B4B73 !important;
-        margin: 0.5rem 0 !important;
+        color: #6B4B73 ;
+        margin: 0.5rem 0 ;
     }
     
     /* Additional purple styling for all text elements */
     h1, h2, h3, h4, h5, h6 {
-        color: #674188 !important;
+        color: #674188 ;
     }
     
     p {
-        color: #4A2C58 !important;
+        color: #4A2C58 ;
     }
     
     /* Multiselect tags with purple theme */
     .stMultiSelect span[data-baseweb="tag"] {
-        background-color: #BB9CC0 !important;
-        color: white !important;
+        background-color: #BB9CC0 ;
+        color: white ;
     }
     
     /* Radio buttons and checkboxes */
     .stRadio > div, .stCheckbox > div {
-        color: #674188 !important;
+        color: #674188 ;
     }
     
 </style>
@@ -1608,8 +1608,21 @@ with col2:
     st.metric("Total Funding (USD)", f"${total_funding:,.0f}")
 
 with col3:
-    avg_year = filtered_df['Year of establishment'].mean()
-    st.metric("Average Year of Establishment", f"{avg_year:.0f}")
+    # نشيل القيم الفارغة أو = 0
+    valid_years = filtered_df['Year of establishment']
+    valid_years = pd.to_numeric(valid_years, errors='coerce')
+    valid_years = valid_years[valid_years > 0]
+
+    if not valid_years.empty:
+        mod_year = valid_years.mode()[0]  # أول مود
+        st.metric(
+            "The most frequent founding year ",
+            f"{int(mod_year)}"
+        )
+    else:
+        st.metric("The most frequent founding year ", "N/A")
+
+
 
 with col4:
     top_funded = filtered_df.loc[filtered_df['Funding_Avg_Num'].idxmax(), 'Name']
