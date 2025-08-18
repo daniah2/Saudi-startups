@@ -183,7 +183,7 @@ st.markdown("""
     }
 
     .st-b6 {
-        color: rgb(250, 250, 250);
+        color: #674188;
     }
     
     .st-b5 {
@@ -1554,7 +1554,7 @@ with tab6:
 
     /* المربع الداخلي (input) */
     div.stTextInput > div > input {
-        color: #674188 !important;         /* نص بنفسجي غامق */
+        color: #674188 !important;        
         background-color: #ffffff !important; /* نفس خلفية الصندوق */
         border: none !important;             /* إزالة البوردر الداخلي */
     }
